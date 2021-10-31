@@ -9,10 +9,6 @@ function displayText() {
   }
 }
 
-function hideText() {
-  document.getElementById("soon-text").style.display = "block";
-}
-
 function animate() {
   if (pageInit > 0) {
     setTimeout(function() {
